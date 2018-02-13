@@ -131,8 +131,6 @@ $string['lastviewed'] = 'You last received this certificate on:';
 $string['letter'] = 'Letter';
 $string['lockingoptions'] = 'Locking Options';
 $string['modulename'] = 'Certificate';
-$string['modulename_help'] = 'This module allows for the dynamic generation of certificates based on predefined conditions set by the teacher.';
-$string['modulename_link'] = 'Certificate_module';
 $string['modulenameplural'] = 'Certificates';
 $string['mycertificates'] = 'My Certificates';
 $string['nocertificates'] = 'There are no certificates';
@@ -207,3 +205,12 @@ $string['viewcertificateviews'] = 'View {$a} issued certificates';
 $string['viewed'] = 'You received this certificate on:';
 $string['viewtranscript'] = 'View Certificates';
 $string['watermark'] = 'Watermark';
+
+
+//Heart Failure Certificate options
+
+$string['hfstatement'] = 'Has completed the Heart Foundations eCourse';
+$string['hfstatement2'] = '(Entails approximately {$a->hours} hours of eLearning encompassing Chronic';
+$string['hfstatement3'] = 'Heart Failure pathophysiology, management and self-management support.)';
+
+
