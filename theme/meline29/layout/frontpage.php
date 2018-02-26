@@ -949,8 +949,10 @@ echo $OUTPUT->doctype() ?>
 		   <div id="box-2" class="box">
 			  <img id="image-2" src="<?php echo $blockoneimage ?>" alt="img1" />
 			  <span class="caption full-caption">
-				<h3><?php echo $imageonehovertitle ?></h3>
-				<p><?php echo $imageonehovercontent ?></p>
+                <a href="<?php echo "{$CFG->wwwroot}/$blockonelinkurl" ?>">
+                    <h3><?php echo $imageonehovertitle ?></h3>
+                    <p><?php echo $imageonehovercontent ?></p>
+                </a>
 			  </span>
 		    </div>
 	       </div>
@@ -970,8 +972,10 @@ echo $OUTPUT->doctype() ?>
 		   <div id="box-2" class="box">
 			  <img id="image-2" src="<?php echo $blocktwoimage ?>" alt="img2" />
 			  <span class="caption full-caption">
-				<h3><?php echo $imagetwohovertitle ?></h3>
-				<p><?php echo $imagetwohovercontent ?></p>
+                <a href="<?php echo "{$CFG->wwwroot}/$blocktwolinkurl" ?>">
+                    <h3><?php echo $imagetwohovertitle ?></h3>
+                    <p><?php echo $imagetwohovercontent ?></p>
+                </a>
 			  </span>
 		    </div>
 	      </div>

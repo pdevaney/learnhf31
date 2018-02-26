@@ -1545,3 +1545,8 @@ a[aria-labelledby="actionmenuaction-1"] {
 .navbar .btn-navbar .icon-bar {
     display: none;
 }
+
+#mainwrapper .box .full-caption a, #mainwrapper .box .caption a, #mainwrapper .box .caption a:active  {
+    color: white !important;
+    text-decoration: none;
+}
