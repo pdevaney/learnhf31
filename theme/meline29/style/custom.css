@@ -1564,4 +1564,7 @@ padding-left: 5%;
 
 }
 
-
+#mainwrapper .box .full-caption a, #mainwrapper .box .caption a, #mainwrapper .box .caption a:active  {
+    color: white !important;
+    text-decoration: none;
+}
