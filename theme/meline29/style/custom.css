@@ -1568,3 +1568,6 @@ padding-left: 5%;
     color: white !important;
     text-decoration: none;
 }
+.notloggedin .span4.margin-right:first-of-type {
+    display: none;
+}
