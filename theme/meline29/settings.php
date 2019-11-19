@@ -66,6 +66,7 @@ $default = '';
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $temp->add($setting);
 
+
 // Footnote setting.
 $name = 'theme_meline29/footnote';
 $title = get_string('footnote', 'theme_meline29');

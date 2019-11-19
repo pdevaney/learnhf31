@@ -162,7 +162,15 @@ echo $OUTPUT->doctype() ?>
 					        <a href="https://twitter.com/heartnz" target="_blank"><img src="<?php echo $OUTPUT->pix_url('twitter', 'theme'); ?>" alt="twitter"></a>
 					        <a href="https://www.linkedin.com/company/heart-foundation-nz" target="_blank"><img src="<?php echo $OUTPUT->pix_url('linkedin', 'theme'); ?>" alt="linkedin"></a>
 				        </div>
+
 			        </div>
+
+        </div>
+        <div id='footermessage'>
+          <?php 
+             $foottext=str_replace('YYYY',date("Y"),$PAGE->theme->settings->footnote);
+             echo $foottext;
+            ?> 
         </div>
     </footer>
 

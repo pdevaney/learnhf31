@@ -1574,3 +1574,10 @@ padding-left: 5%;
 #page-site-index.notloggedin #page-wrap .span4 {
     margin-left: 15%;
 }
+
+#footermessage {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3%;
+}
+ 

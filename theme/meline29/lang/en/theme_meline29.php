@@ -43,7 +43,7 @@ $string['themehoverbgc']='Theme Hover Color';
 $string['themehoverbgcdesc']='This sets theme link and button color on mouse hover for the theme.';
 
 $string['footnote'] = 'Footnote';
-$string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.';
+$string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throughout your Moodle site. Note that the characters YYYY will be replaced with the current year.';
 
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Please upload your custom logo here if you want to add it to the header.<br>If you upload a logo it will replace the standard icon and name that was displayed by default.';
@@ -661,5 +661,6 @@ $string['js-styles-saved-error'] = 'An error happened while saving the styles';
 $string['js-font-family-placeholder'] = 'Type your font or list of fonts';
 $string['js-externalpage-disallowed'] = 'Going to an external page is not allowed';
 $string['js-less-error-help'] = 'Please try to clear your browser cache and make sure that your custom CSS/LESS is correct';
+
 
 

@@ -174,6 +174,12 @@ echo $OUTPUT->doctype() ?>
 				        </div>
 			        </div>
         </div>
+        <div id='footermessage'>
+          <?php 
+             $foottext=str_replace('YYYY',date("Y"),$PAGE->theme->settings->footnote);
+             echo $foottext;
+            ?> 
+        </div>
     </footer>
     
     <?php echo $OUTPUT->standard_end_of_body_html() ?>
