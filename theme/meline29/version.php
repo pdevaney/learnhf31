@@ -30,7 +30,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2015051100;
+$plugin->version   = 2019112500;
 $plugin->requires  = 2015050500;
 $plugin->component = 'theme_meline29';
 $plugin->dependencies = array(
